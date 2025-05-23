@@ -35,7 +35,7 @@ class HomeFragment : Fragment() {
 
     }
     private fun loadData() {
-
+        heroList.clear()
         heroList.add(
             Hero(
                 name = "Доктор Стрендж",
